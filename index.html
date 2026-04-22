@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Официальное приглашение</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Классический академический шрифт */
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 60px 80px; /* Увеличенные отступы для солидности */
+            border-radius: 0; 
+            box-shadow: 0 0 1px rgba(0,0,0,0.2), 0 10px 30px rgba(0,0,0,0.05);
+            max-width: 800px; /* Шире для компьютерной версии */
+            width: 100%;
+            text-align: center;
+            border: 1px solid #d1d1d1;
+            position: relative;
+        }
+
+        /* Тонкие академические линии */
+        .separator {
+            width: 100px;
+            height: 1px;
+            background: #1a2a6c;
+            margin: 20px auto;
+        }
+
+        h1 {
+            color: #1a2a6c;
+            font-size: 24px;
+            letter-spacing: 4px;
+            margin-bottom: 40px;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+        .salutation {
+            font-size: 22px;
+            margin-bottom: 25px;
+            color: #000;
+        }
+
+        .text-body {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #222;
+            margin-bottom: 40px;
+            text-align: center;
+            font-style: italic; /* Придает оттенок торжественности */
+        }
+
+        .details-table {
+            width: 100%;
+            margin: 40px 0;
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+
+        .details-table td {
+            padding: 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .label {
+            text-align: right;
+            width: 45%;
+            color: #777;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding-right: 20px;
+        }
+
+        .value {
+            text-align: left;
+            font-weight: bold;
+            color: #1a2a6c;
+        }
+
+        .closing {
+            margin-top: 50px;
+            font-size: 18px;
+        }
+
+        .signature-block {
+            margin-top: 30px;
+            text-align: right; /* Классическое расположение подписи */
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .btn-map {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            border: 1px solid #1a2a6c;
+            color: #1a2a6c;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .btn-map:hover {
+            background: #1a2a6c;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .card { padding: 40px 30px; }
+            .label { width: 30%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>ПРИГЛАШЕНИЕ</h1>
+        <div class="separator"></div>
+        
+        <p class="salutation">Уважаемые коллеги!</p>
+        
+        <p class="text-body">
+            Имеем честь пригласить Вас на торжественный ужин, организуемый по случаю успешного завершения научной конференции. 
+            Данное мероприятие послужит площадкой для развития академического диалога в неформальной обстановке, 
+            обмена экспертными мнениями и укрепления профессиональных связей между участниками научного сообщества.
+        </p>
+
+        <table class="details-table">
+            <tr>
+                <td class="label">Дата проведения</td>
+                <td class="value">24 апреля 2026 года</td>
+            </tr>
+            <tr>
+                <td class="label">Время начала</td>
+                <td class="value">18:00</td>
+            </tr>
+            <tr>
+                <td class="label">Место встречи</td>
+                <td class="value">ул. Курмангазы, 25</td>
+            </tr>
+            <tr>
+                <td class="label">Локация</td>
+                <td class="value">Ресторан «Теплица»</td>
+            </tr>
+        </table>
+
+        <p class="closing">Будем признательны за Ваше присутствие среди почетных гостей.</p>
+
+        <div class="signature-block">
+            С глубоким уважением,<br>
+            <strong>Организационный комитет</strong>
+        </div>
+
+        <a href="https://2gis.kz/almaty/geo/9429940395371520" target="_blank" class="btn-map">Карта проезда</a>
+    </div>
+
+</body>
+</html>
